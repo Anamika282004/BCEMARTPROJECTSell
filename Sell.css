@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Changed from center to flex-start */
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px; /* Added padding to create space from the top */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selected-category {
+    margin-bottom: 20px;
+}
+
+.selected-category span {
+    font-weight: bold;
+}
+
+.selected-category a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+small {
+    color: #888;
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #26507F;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #26507F;
+    opacity: 0.7;
+}
+
+#message {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
